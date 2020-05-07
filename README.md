@@ -46,7 +46,7 @@ The outputted launcher application limits modifications to a mounted shadow imag
 like a student lab or can be retained in single-user systems but preventing modifications to sensitive and secured areas of the Mac file system.
 
 # Download
-'App Playpen' can be downloaded [here](../../releases/).
+"App Playpen" can be downloaded [here](../../releases/).
 
 # Contact
 If you have any comments, questions, or other input, either [file an issue](../../issues) or [send us an email](mailto:mlib-its-mac-github@lists.utah.edu). Thanks!
@@ -115,7 +115,7 @@ Since this tool is not signed, you will need to Ctrl+Click and select "Open" to 
 <img src="images/cannotopen.png" width="500" height="250">
 
 ## Review Code & Compile
-However, I recommend that you review the code and compile it from the source, detailed [here](#Compiling-from-Source). Crappy_App_Logic.py is where all the main processes occur, I would recommend you review the code here for how it works. 
+However, I recommend that you review the code and compile it from the source, detailed [here](#Compiling-from-Source). `Crappy_App_Logic.py` is where all the main processes occur, I would recommend you review the code here for how it works. 
 App_Playpen.py handles the UI and the initial information gathering from the selected application from its plist.
 
 You can enter your own information into the fields or you can select an app using the 'Select App' Button.
