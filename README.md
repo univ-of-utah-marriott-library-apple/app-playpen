@@ -46,7 +46,7 @@ The outputted launcher application limits modifications to a mounted shadow imag
 like a student lab or can be retained in single-user systems but preventing modifications to sensitive and secured areas of the Mac file system.
 
 # Download
-'App Playpen' can be downloaded [here](App-Playpen.app.zip).
+'App Playpen' can be downloaded [here](../../releases/).
 
 # Contact
 If you have any comments, questions, or other input, either [file an issue](../../issues) or [send us an email](mailto:mlib-its-mac-github@lists.utah.edu). Thanks!
@@ -221,5 +221,5 @@ This allows Unity to update while allowing users to have restriction-free access
 
 Date | Version | Notes
 -------|-----------|-------
-2020.07.05 | 1.0 | Initial release
+2020.05.07 | 1.0 | Initial release
 
