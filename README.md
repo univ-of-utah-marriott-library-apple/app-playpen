@@ -221,5 +221,5 @@ This allows Unity to update while allowing users to have restriction-free access
 
 Date | Version | Notes
 -------|-----------|-------
-2020.05.05 | 1.0 | Initial release
+2020.07.05 | 1.0 | Initial release
 
