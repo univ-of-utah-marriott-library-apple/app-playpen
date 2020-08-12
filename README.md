@@ -193,7 +193,7 @@ the .sparseimage and .dmg if created in /tmp in order to create the app playpen.
 ### Blank Build Option
 When creating an "App Playpen" launcher for some applications, you may not have the option to select the "real" application to gather metadata before starting the installation process. This can cause data to be lost during installation when transferring the "real" application to the  "App Playpen launcher". This "Blank Build" option allows you to create a "Blank" disk image based on two arguments, the size, and name of the disk image.
 
-<img src="images/blank_option.png" width="525" height="550">
+<img src="images/blank_option.png">
 
 With the blank disk image created, you can install the "real" application directly to the created volume. From there, the script automatically collects the rest of the metadata and the application icon. However, if there is more than one application installed, the "App Playpen" builder may collect the incorrect information. Ideally you only want one application to be assigned to an "App Playpen" launcher. In cases where an installation has multiple applications, you can manually modify the script assignment to your desired default application.
 
