@@ -34,6 +34,7 @@ In addition, you can add command or scripts of your choosing that can be execute
     + [Prepare App for Capture](#prepare-app-for-capture)
     + [Finish Building Launcher & Disk Image](#finish-building-launcher---disk-image)
     + [Errors](#errors)
+    + [Blank Build Option](#blank-build-option)
 - [Compiling from Source](#compiling-from-source)
 - [How Does it work?](#how-does-it-work-)
   * [Launch Process](#launch-process)
@@ -189,6 +190,13 @@ in creating another wrapper.
 If an error occurs there will be a dialog window with the error displayed. There is a catch for this, but if it fails you will need to delete
 the .sparseimage and .dmg if created in /tmp in order to create the app playpen.
 
+### Blank Build Option
+When creating an "App Playpen" launcher for some applications, you may not have the option to select the "real" application to gather metadata before starting the installation process. This can cause data to be lost during installation when transferring the "real" application to the  "App Playpen launcher". This "Blank Build" option allows you to create a "Blank" disk image based on two arguments, the size, and name of the disk image.
+
+<img src="images/blank_option.png" width="525" height="550">
+
+With the blank disk image created, you can install the "real" application directly to the created volume. From there, the script automatically collects the rest of the metadata and the application icon. However, if there is more than one application installed, the "App Playpen" builder may collect the incorrect information. Ideally you only want one application to be assigned to an "App Playpen" launcher. In cases where an installation has multiple applications, you can manually modify the script assignment to your desired default application.
+
 # Compiling from Source
 To turn this into a fully usable application I used py2applet. Start by going to [py2app](https://py2app.readthedocs.io/en/latest/) on how to use it.
 
@@ -222,4 +230,6 @@ This allows Unity to update while allowing users to have restriction-free access
 Date | Version | Notes
 -------|-----------|-------
 2020.05.07 | 1.0 | Initial release
+2020.06.02 | 1.0.1 | Added Blank Build Option
+2020.08.04 | 1.0.2 | Fixed bugs with script launcher
 
