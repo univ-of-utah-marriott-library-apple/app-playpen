@@ -232,4 +232,5 @@ Date | Version | Notes
 2020.05.07 | 1.0 | Initial release
 2020.06.02 | 1.0.1 | Added Blank Build Option
 2020.08.04 | 1.0.2 | Fixed bugs with script launcher
+2021.02.04 | 1.0.3 | Fixed bug with app launcher script
 
